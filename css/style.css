@@ -1,0 +1,127 @@
+*{
+    border: 0;
+    padding: 0;
+    margin: 0
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+
+body{
+    background-color: #fff;
+}
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    height: 110px;
+    width: 100%;
+    top: 0;
+}
+
+.logo-principal{
+    width: 100px;
+    border-radius: 50%;
+    height: 100px;
+    border: 2px solid #000;
+}
+
+.botoes-login{
+    margin-right: 20px;
+    padding: 10px;
+}
+
+#pesquisa-lupa{
+    height: 27px;  
+    font-size: 19px;
+    font-family: 'Shrikhand', serif;
+    border-radius: 5px; 
+  
+}
+
+
+.botao-login{
+    width: 90px;
+    height: 30px;
+    font-family: 'Shrikhand', serif;
+    font-size: 17px;
+    border: 2px solid #000;
+    cursor: pointer;
+}
+
+.pesquisa{
+    margin-top: 50px;
+    background-color: #ebe4e4;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 110px;
+    position: absolute;
+}
+
+.dragao-blanket{
+    width: 120px;
+    padding: 10px;
+    margin-left: 25px;
+}
+
+.lupa{
+    width: 50px;
+}
+
+
+.icones-inicial{
+    width: 50px;
+    height: 50px;
+    
+}
+
+.icones-canto{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    cursor: pointer;
+}
+
+.lupa-input-pesquisa{
+    border-radius: 30px;
+    position: relative;
+    display: flex;
+    cursor: pointer;
+}
+.lupa-input-pesquisa .lupa {
+    position: absolute;
+    z-index: 1;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.lupa-input-pesquisa input {
+    padding: 10px 0;
+    position: relative;
+    width: 200px;
+    border: 2px solid #000;
+}
+.camisa-blanket{
+    width: 180px;
+    padding: 15px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    border: 2px solid ;
+    margin-top: 200px;
+}
+
+.cards-camiseta{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    height: 100%;
+    width: 100%;
+}
