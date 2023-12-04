@@ -1,38 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blanket</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" type="image/jpg" href="img/blaket-dragao.png"/>
     
 </head>
+
 <body>
-    <header class="cabecalho">
-        <img src="img/logo.png" class="logo-principal" alt="Blanket">
+    <header>
+        <div class="cabecalho">
+            <img src="img/logo.png" class="logo-principal" alt="Blanket">
             <div class="botoes-login">
-                <button class="botao-login"><strong>Sing in</strong></button>
-                <button class="botao-login"><strong>Sing up</strong></button>
+                <a href="sign-in.html"><button class="botao-login"><strong>Sing in</strong></button></a>
+                <a href="signup.html"><button class="botao-login"><strong>Sing up</strong></button></a>
             </div>
-    </header>
+        </div>
         <div class="pesquisa">
             <img class="dragao-blanket" src="img/blaket-dragao.png" alt="dragao">
-                <div class="icones-canto">
-                    <div class="lupa-input-pesquisa">
-                        <img class="lupa" src="img/lupa-pesquisa.png" alt="lupa">
-                        <input  type="text" name="q" id="pesquisa-lupa" placeholder="Pesquisar...">
-                    </div>    
-                        <img class="icones-inicial" src="img/icone-favorito.png" alt="">
-                        <img class="icones-inicial" src="img/carrinho.png" alt="">
+            <div class="icones-canto">
+                <div class="lupa-input-pesquisa">
+                    <img class="lupa" src="img/lupa-pesquisa.png" alt="lupa">
+                    <input type="text" name="q" id="pesquisa-lupa" placeholder="Pesquisar...">
                 </div>
+                <img class="icones-inicial" src="img/icone-favorito.png" alt="">
+                <img class="icones-inicial" src="img/carrinho.png" alt="">
+            </div>
         </div>
-
-        <div class="cards-camiseta">
-            <img class="camisa-blanket" src="img/camisa-teste.webp" alt="camiseta-blanet">
-            <img class="camisa-blanket" src="img/camisa-teste.webp" alt="camiseta-blanet">
-            <img class="camisa-blanket" src="img/camisa-teste.webp" alt="camiseta-blanet">
-            <img class="camisa-blanket" src="img/camisa-teste.webp" alt="camiseta-blanet">
-            <img class="camisa-blanket" src="img/camisa-teste.webp" alt="camiseta-blanet">
-        </div>
+    </header>
+    <div class="card">
+        <img class="camiseta" src="img/camisa-teste.webp" alt="">
+        <img class="camiseta" src="img/camisa-teste.webp" alt="">
+        <img class="camiseta" src="img/camisa-teste.webp" alt="">
+        <img class="camiseta" src="img/camisa-teste.webp" alt="">
+        <img class="camiseta" src="img/camisa-teste.webp" alt="">
+    </div>
 </body>
 </html>
